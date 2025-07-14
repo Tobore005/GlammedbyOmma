@@ -84,7 +84,7 @@ export default function Home() {
           {Array.from({ length: 12 }).map((_, i) => (
             <Image
               key={i}
-              src={`/Portfolio/Portfolio%20(${i + 1}).jpg`}
+              src={`/portfolio/portfolio%20(${i + 1}).jpg`}
               alt={`Portfolio ${i + 1}`}
               width={300}
               height={300}
